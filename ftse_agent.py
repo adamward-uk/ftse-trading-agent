@@ -111,6 +111,12 @@ def save_portfolio(p: dict):
         json.dump(p, f, indent=2)
 
 
+# ── Price Normalisation ───────────────────────────────────────────────────────────
+def gbx_to_gbp(price: float, ticker: str) -> float:
+    """yfinance returns LSE (.L) stocks in GBX (pence). Convert to GBP (pounds)."""
+    return round(price / 100, 4) if ticker.endswith(".L") else round(price, 4)
+
+
 # ── Market Data ───────────────────────────────────────────────────────────────────
 def analyse_news(items: list) -> tuple[float, list]:
     headlines, scores = [], []
@@ -133,11 +139,11 @@ def get_stock_data(ticker: str) -> dict | None:
         hist  = stock.history(period="3mo")
         if hist.empty or len(hist) < 5:
             return None
-        price = float(hist["Close"].iloc[-1])
+        price = gbx_to_gbp(float(hist["Close"].iloc[-1]), ticker)
         if price <= 0:
             return None
-        p1m = float(hist["Close"].iloc[-22]) if len(hist) >= 22 else float(hist["Close"].iloc[0])
-        p3m = float(hist["Close"].iloc[0])
+        p1m = gbx_to_gbp(float(hist["Close"].iloc[-22]) if len(hist) >= 22 else float(hist["Close"].iloc[0]), ticker)
+        p3m = gbx_to_gbp(float(hist["Close"].iloc[0]), ticker)
 
         delta = hist["Close"].diff()
         gain  = delta.clip(lower=0).rolling(14).mean()
@@ -244,7 +250,7 @@ def get_live_prices(tickers: list) -> dict:
         try:
             h = yf.Ticker(t).history(period="2d")
             if not h.empty:
-                prices[t] = float(h["Close"].iloc[-1])
+                prices[t] = gbx_to_gbp(float(h["Close"].iloc[-1]), t)
         except Exception:
             pass
         time.sleep(0.1)
@@ -332,9 +338,7 @@ def run_session(portfolio: dict) -> tuple[dict, list, dict]:
             if buys >= slots or sc < BUY_THRESHOLD:
                 break
             ticker = data["ticker"]
-            price  = data["current_price"]
-            if price > 5000:
-                price /= 100  # Convert pence → pounds if needed
+            price  = data["current_price"]  # Already in GBP (converted by gbx_to_gbp)
 
             pos_v  = min(total_value * POSITION_SIZE_PCT,
                          total_value * MAX_POSITION_PCT,
