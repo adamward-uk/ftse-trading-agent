@@ -1,5 +1,5 @@
 {
-  "cash": 1963.3929999999982,
+  "cash": 1067.6169999999981,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -63,6 +63,13 @@
       "first_bought": "2026-03-19",
       "score_at_buy": 62.0,
       "name": "Watches of Switzerland Group PLC"
+    },
+    "IPO.L": {
+      "shares": 1736,
+      "avg_cost": 0.516,
+      "first_bought": "2026-03-23",
+      "score_at_buy": 63.8,
+      "name": "IP Group Plc"
     }
   },
   "trades": [
@@ -173,6 +180,18 @@
       "score": 62.0,
       "reason": "Score 62.0 | P/E 15.0 | RevGrow +8% | RSI 31 oversold",
       "news_headlines": []
+    },
+    {
+      "date": "2026-03-23",
+      "ticker": "IPO.L",
+      "name": "IP Group Plc",
+      "action": "BUY",
+      "shares": 1736,
+      "price": 0.516,
+      "total": 895.78,
+      "score": 63.8,
+      "reason": "Score 63.8 | P/E 7.4",
+      "news_headlines": []
     }
   ],
   "daily_snapshots": [
@@ -195,6 +214,16 @@
       "return_pct": -0.62,
       "positions": 9,
       "trades_today": 0
+    },
+    {
+      "date": "2026-03-23",
+      "timestamp": "2026-03-23 16:51",
+      "cash": 1067.62,
+      "equity_value": 8889.37,
+      "total_value": 9956.99,
+      "return_pct": -0.43,
+      "positions": 10,
+      "trades_today": 1
     }
   ],
   "created": "2026-03-19",
