@@ -1,5 +1,5 @@
 {
-  "cash": 945.8889999999981,
+  "cash": 802.108999999998,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -14,13 +14,6 @@
       "first_bought": "2026-03-19",
       "score_at_buy": 66.0,
       "name": "Lancashire Holdings Limited"
-    },
-    "PSN.L": {
-      "shares": 79,
-      "avg_cost": 11.305,
-      "first_bought": "2026-03-19",
-      "score_at_buy": 65.8,
-      "name": "Persimmon Plc"
     },
     "ABDN.L": {
       "shares": 468,
@@ -70,6 +63,13 @@
       "first_bought": "2026-03-24",
       "score_at_buy": 63.8,
       "name": "Bytes Technology Group plc"
+    },
+    "PSN.L": {
+      "shares": 93,
+      "avg_cost": 10.27,
+      "first_bought": "2026-04-29",
+      "score_at_buy": 69.3,
+      "name": "Persimmon Plc"
     }
   },
   "trades": [
@@ -214,6 +214,29 @@
       "total": 882.53,
       "score": 63.8,
       "reason": "Score 63.8 | P/E 12.1 | RevGrow +14% | RSI 18 oversold",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "PSN.L",
+      "name": "Persimmon Plc",
+      "action": "SELL",
+      "shares": 79,
+      "price": 10.27,
+      "total": 811.33,
+      "pnl_pct": -9.16,
+      "reason": "Trailing cut -9.2% after 41d"
+    },
+    {
+      "date": "2026-04-29",
+      "ticker": "PSN.L",
+      "name": "Persimmon Plc",
+      "action": "BUY",
+      "shares": 93,
+      "price": 10.27,
+      "total": 955.11,
+      "score": 69.3,
+      "reason": "Score 69.3 | P/E 11.7 | RevGrow +19% | RSI 25 oversold",
       "news_headlines": []
     }
   ],
@@ -507,6 +530,16 @@
       "return_pct": 7.95,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-04-29",
+      "timestamp": "2026-04-29 17:04",
+      "cash": 802.11,
+      "equity_value": 9834.31,
+      "total_value": 10636.42,
+      "return_pct": 6.36,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
