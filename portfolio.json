@@ -1,5 +1,5 @@
 {
-  "cash": 802.108999999998,
+  "cash": 989.1089999999978,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -57,19 +57,19 @@
       "score_at_buy": 63.8,
       "name": "IP Group Plc"
     },
-    "BYIT.L": {
-      "shares": 348,
-      "avg_cost": 2.536,
-      "first_bought": "2026-03-24",
-      "score_at_buy": 63.8,
-      "name": "Bytes Technology Group plc"
-    },
     "PSN.L": {
       "shares": 93,
       "avg_cost": 10.27,
       "first_bought": "2026-04-29",
       "score_at_buy": 69.3,
       "name": "Persimmon Plc"
+    },
+    "JET2.L": {
+      "shares": 86,
+      "avg_cost": 11.26,
+      "first_bought": "2026-05-12",
+      "score_at_buy": 63.2,
+      "name": "Jet2 plc"
     }
   },
   "trades": [
@@ -237,6 +237,29 @@
       "total": 955.11,
       "score": 69.3,
       "reason": "Score 69.3 | P/E 11.7 | RevGrow +19% | RSI 25 oversold",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "BYIT.L",
+      "name": "Bytes Technology Group plc",
+      "action": "SELL",
+      "shares": 348,
+      "price": 3.32,
+      "total": 1155.36,
+      "pnl_pct": 30.91,
+      "reason": "Take-profit +30.9%"
+    },
+    {
+      "date": "2026-05-12",
+      "ticker": "JET2.L",
+      "name": "Jet2 plc",
+      "action": "BUY",
+      "shares": 86,
+      "price": 11.26,
+      "total": 968.36,
+      "score": 63.2,
+      "reason": "Score 63.2 | P/E 4.8 | RSI 39 oversold",
       "news_headlines": []
     }
   ],
@@ -620,6 +643,16 @@
       "return_pct": 9.86,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-05-12",
+      "timestamp": "2026-05-12 17:18",
+      "cash": 989.11,
+      "equity_value": 9800.89,
+      "total_value": 10790.0,
+      "return_pct": 7.9,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
