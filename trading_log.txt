@@ -1319,3 +1319,24 @@
 [2026-05-20 17:36:45] [INFO] Done | Total: £11,220.54 | Return: +12.21% | Trades: 0
 [2026-05-20 17:36:45] [INFO] Dashboard saved → dashboard.html
 [2026-05-20 17:36:45] [INFO] Complete.
+[2026-05-21 17:23:50] [INFO] Starting FTSE 250 Paper Trading Agent (Cloud)
+[2026-05-21 17:23:50] [INFO] ============================================================
+[2026-05-21 17:23:50] [INFO] FTSE Trading Agent — 2026-05-21 17:23
+[2026-05-21 17:23:50] [INFO] Cash: £1,258.11 | Positions: 10
+[2026-05-21 17:23:53] [INFO] Portfolio total: £11,224.27
+[2026-05-21 17:23:53] [INFO] --- Sell evaluation ---
+[2026-05-21 17:23:53] [INFO]   HOLD TBCG.L pnl=+8.1% score=70.9 63d
+[2026-05-21 17:23:54] [INFO]   HOLD LRE.L pnl=+13.5% score=63.3 63d
+[2026-05-21 17:23:54] [INFO]   HOLD ABDN.L pnl=+25.8% score=57.7 63d
+[2026-05-21 17:23:55] [INFO]   HOLD AUTO.L pnl=-5.8% score=65.1 63d
+[2026-05-21 17:23:55] [INFO]   HOLD INVP.L pnl=+13.9% score=63.0 63d
+[2026-05-21 17:23:56] [INFO]   HOLD NXT.L pnl=+7.0% score=59.6 63d
+[2026-05-21 17:23:56] [INFO]   HOLD IPO.L pnl=+27.3% score=63.0 59d
+[2026-05-21 17:23:57] [INFO]   HOLD PSN.L pnl=+3.5% score=68.6 22d
+[2026-05-21 17:23:57] [INFO]   HOLD JET2.L pnl=-2.0% score=62.4 9d
+[2026-05-21 17:23:58] [INFO]   HOLD UKW.L pnl=-1.1% score=65.1 7d
+[2026-05-21 17:23:58] [INFO] No buy slots or insufficient cash.
+[2026-05-21 17:23:59] [INFO] ============================================================
+[2026-05-21 17:23:59] [INFO] Done | Total: £11,224.27 | Return: +12.24% | Trades: 0
+[2026-05-21 17:23:59] [INFO] Dashboard saved → dashboard.html
+[2026-05-21 17:23:59] [INFO] Complete.
