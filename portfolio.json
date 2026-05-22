@@ -1,5 +1,5 @@
 {
-  "cash": 1258.1069999999977,
+  "cash": 2562.357999999998,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -14,13 +14,6 @@
       "first_bought": "2026-03-19",
       "score_at_buy": 66.0,
       "name": "Lancashire Holdings Limited"
-    },
-    "ABDN.L": {
-      "shares": 468,
-      "avg_cost": 1.92,
-      "first_bought": "2026-03-19",
-      "score_at_buy": 62.7,
-      "name": "Aberdeen Group Plc"
     },
     "AUTO.L": {
       "shares": 187,
@@ -43,13 +36,6 @@
       "score_at_buy": 62.1,
       "name": "NEXT plc"
     },
-    "IPO.L": {
-      "shares": 1736,
-      "avg_cost": 0.516,
-      "first_bought": "2026-03-23",
-      "score_at_buy": 63.8,
-      "name": "IP Group Plc"
-    },
     "PSN.L": {
       "shares": 93,
       "avg_cost": 10.27,
@@ -70,6 +56,13 @@
       "first_bought": "2026-05-14",
       "score_at_buy": 64.3,
       "name": "Greencoat UK Wind"
+    },
+    "IPO.L": {
+      "shares": 1515,
+      "avg_cost": 0.671,
+      "first_bought": "2026-05-22",
+      "score_at_buy": 63.0,
+      "name": "IP Group Plc"
     }
   },
   "trades": [
@@ -283,6 +276,40 @@
       "total": 997.0,
       "score": 64.3,
       "reason": "Score 64.3",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "ABDN.L",
+      "name": "Aberdeen Group Plc",
+      "action": "SELL",
+      "shares": 468,
+      "price": 2.47,
+      "total": 1155.96,
+      "pnl_pct": 28.65,
+      "reason": "Take-profit +28.6%"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "IPO.L",
+      "name": "IP Group Plc",
+      "action": "SELL",
+      "shares": 1736,
+      "price": 0.671,
+      "total": 1164.86,
+      "pnl_pct": 30.04,
+      "reason": "Take-profit +30.0%"
+    },
+    {
+      "date": "2026-05-22",
+      "ticker": "IPO.L",
+      "name": "IP Group Plc",
+      "action": "BUY",
+      "shares": 1515,
+      "price": 0.671,
+      "total": 1016.57,
+      "score": 63.0,
+      "reason": "Score 63.0 | P/E 9.6",
       "news_headlines": []
     }
   ],
@@ -746,6 +773,16 @@
       "return_pct": 12.24,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-05-22",
+      "timestamp": "2026-05-22 17:17",
+      "cash": 2562.36,
+      "equity_value": 8739.41,
+      "total_value": 11301.77,
+      "return_pct": 13.02,
+      "positions": 9,
+      "trades_today": 3
     }
   ],
   "created": "2026-03-19",
