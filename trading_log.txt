@@ -1405,3 +1405,65 @@
 [2026-05-22 17:18:00] [INFO] Done | Total: £11,301.77 | Return: +13.02% | Trades: 3
 [2026-05-22 17:18:00] [INFO] Dashboard saved → dashboard.html
 [2026-05-22 17:18:00] [INFO] Complete.
+[2026-05-25 17:15:57] [INFO] Starting FTSE 250 Paper Trading Agent (Cloud)
+[2026-05-25 17:15:57] [INFO] ============================================================
+[2026-05-25 17:15:57] [INFO] FTSE Trading Agent — 2026-05-25 17:15
+[2026-05-25 17:15:57] [INFO] Cash: £2,562.36 | Positions: 9
+[2026-05-25 17:16:01] [INFO] Portfolio total: £11,301.77
+[2026-05-25 17:16:01] [INFO] --- Sell evaluation ---
+[2026-05-25 17:16:01] [INFO]   HOLD TBCG.L pnl=+7.3% score=70.9 67d
+[2026-05-25 17:16:02] [INFO]   HOLD LRE.L pnl=+11.6% score=64.6 67d
+[2026-05-25 17:16:02] [INFO]   HOLD AUTO.L pnl=-5.5% score=65.1 67d
+[2026-05-25 17:16:03] [INFO]   HOLD INVP.L pnl=+12.0% score=67.5 67d
+[2026-05-25 17:16:03] [INFO]   HOLD NXT.L pnl=+7.3% score=59.8 67d
+[2026-05-25 17:16:04] [INFO]   HOLD PSN.L pnl=+6.5% score=67.7 26d
+[2026-05-25 17:16:06] [INFO]   HOLD JET2.L pnl=-0.4% score=62.7 13d
+[2026-05-25 17:16:06] [INFO]   HOLD UKW.L pnl=+0.7% score=65.1 11d
+[2026-05-25 17:16:06] [INFO]   HOLD IPO.L pnl=+0.0% score=63.0 3d
+[2026-05-25 17:16:06] [INFO] --- Buy scan (1 slots, £2,562.36 cash) ---
+[2026-05-25 17:16:07] [INFO]   ABDN.L       score= 57.7 RSI=86.6 P/E=11.8   news=50.0 Aberdeen Group Plc
+[2026-05-25 17:16:09] [INFO]   JUST.L       score= 29.7 RSI= 1.1 P/E=N/A    news=50.0 Just Group plc
+[2026-05-25 17:16:10] [INFO]   QLT.L        score= 57.4 RSI=67.9 P/E=21.5   news=50.0 Quilter plc
+[2026-05-25 17:16:11] [INFO]   EMG.L        score= 47.8 RSI=78.1 P/E=25.7   news=50.0 Man Group Plc
+[2026-05-25 17:16:12] [INFO]   ITRK.L       score= 40.6 RSI=72.4 P/E=25.4   news=50.0 Intertek Group plc
+[2026-05-25 17:16:13] [INFO]   JDW.L        score= 51.4 RSI=65.5 P/E=10.6   news=50.0 J D Wetherspoon plc
+[2026-05-25 17:16:14] [INFO]   HFD.L        score= 37.8 RSI=78.3 P/E=N/A    news=50.0 Halfords Group plc
+[2026-05-25 17:16:15] [INFO]   CARD.L       score= 54.6 RSI=64.5 P/E=7.9    news=50.0 Card Factory plc
+[2026-05-25 17:16:16] [INFO]   SMWH.L       score= 44.6 RSI=45.4 P/E=N/A    news=50.0 WH Smith PLC
+[2026-05-25 17:16:17] [INFO]   WOSG.L       score= 51.6 RSI=81.8 P/E=22.8   news=50.0 Watches of Switzerland Group
+[2026-05-25 17:16:18] [INFO]   MKS.L        score= 61.2 RSI=54.9 P/E=28.9   news=50.0 Marks and Spencer Group plc
+[2026-05-25 17:16:19] [INFO]   TATE.L       score= 49.5 RSI=76.6 P/E=23.1   news=50.0 Tate & Lyle plc
+[2026-05-25 17:16:20] [INFO]   SBRY.L       score= 50.7 RSI=33.2 P/E=17.2   news=50.0 J Sainsbury plc
+[2026-05-25 17:16:22] [INFO]   IMI.L        score= 55.6 RSI=53.0 P/E=22.3   news=50.0 IMI plc
+[2026-05-25 17:16:23] [INFO]   MGAM.L       score= 46.7 RSI=56.2 P/E=N/A    news=50.0 Morgan Advanced Materials pl
+[2026-05-25 17:16:24] [INFO]   VSVS.L       score= 44.2 RSI=62.1 P/E=21.7   news=50.0 Vesuvius plc
+[2026-05-25 17:16:25] [INFO]   VCT.L        score= 38.1 RSI=56.6 P/E=N/A    news=50.0 Victrex plc
+[2026-05-25 17:16:26] [INFO]   MSLH.L       score= 46.5 RSI=55.6 P/E=22.5   news=50.0 Marshalls plc
+[2026-05-25 17:16:27] [INFO]   TPK.L        score= 43.2 RSI=56.1 P/E=N/A    news=50.0 Travis Perkins plc
+[2026-05-25 17:16:28] [INFO]   SHI.L        score= 33.0 RSI=69.1 P/E=N/A    news=50.0 SIG plc
+[2026-05-25 17:16:29] [INFO]   ALFA.L       score= 59.4 RSI=55.8 P/E=15.5   news=50.0 Alfa Financial Software Hold
+[2026-05-25 17:16:30] [INFO]   BYIT.L       score= 48.5 RSI=81.8 P/E=17.0   news=50.0 Bytes Technology Group plc
+[2026-05-25 17:16:31] [INFO]   CTEC.L       score= 50.0 RSI=36.9 P/E=32.8   news=50.0 Convatec Group PLC
+[2026-05-25 17:16:32] [INFO]   NESF.L       score= 46.9 RSI=27.8 P/E=N/A    news=50.0 NextEnergy Solar Fund Limite
+[2026-05-25 17:16:34] [INFO]   BOY.L        score= 45.4 RSI=78.6 P/E=26.8   news=50.0 Bodycote plc
+[2026-05-25 17:16:35] [INFO]   SAFE.L       score= 56.2 RSI=35.4 P/E=12.5   news=50.0 Safestore Holdings Plc
+[2026-05-25 17:16:35] [INFO]   UTG.L        score= 55.8 RSI=65.3 P/E=24.8   news=50.0 Unite Group PLC
+[2026-05-25 17:16:36] [INFO]   WKP.L        score= 39.2 RSI=46.5 P/E=N/A    news=50.0 Workspace Group Plc
+[2026-05-25 17:16:38] [INFO]   OXB.L        score= 39.8 RSI=57.7 P/E=N/A    news=50.0 Oxford Biomedica plc
+[2026-05-25 17:16:39] [INFO]   ELM.L        score= 50.9 RSI=58.6 P/E=18.9   news=50.0 Elementis plc
+[2026-05-25 17:16:41] [INFO]   MAB.L        score= 56.8 RSI=34.6 P/E=7.5    news=50.0 Mitchells & Butlers plc
+[2026-05-25 17:16:42] [INFO]   RCH.L        score= 41.8 RSI=31.7 P/E=N/A    news=50.0 Reach plc
+[2026-05-25 17:16:43] [INFO]   CRST.L       score= 37.7 RSI=56.6 P/E=71.5   news=50.0 Crest Nicholson Holdings plc
+[2026-05-25 17:16:45] [INFO]   BKG.L        score= 50.1 RSI=61.3 P/E=9.1    news=50.0 The Berkeley Group Holdings 
+[2026-05-25 17:16:46] [INFO]   TEP.L        score= 54.2 RSI=33.7 P/E=13.0   news=50.0 Telecom Plus Plc
+[2026-05-25 17:16:47] [INFO]   INCH.L       score= 53.3 RSI=52.3 P/E=11.7   news=50.0 Inchcape plc
+[2026-05-25 17:16:47] [INFO]   RHIM.L       score= 51.5 RSI=58.2 P/E=18.9   news=50.0 RHI Magnesita N.V.
+[2026-05-25 17:16:48] [INFO]   GAW.L        score= 51.8 RSI=56.9 P/E=32.9   news=50.0 Games Workshop Group PLC
+[2026-05-25 17:16:50] [INFO]   DPLM.L       score= 47.4 RSI=51.5 P/E=49.8   news=50.0 Diploma PLC
+[2026-05-25 17:16:51] [INFO]   ESNT.L       score= 41.9 RSI=63.7 P/E=86.5   news=50.0 Essentra plc
+[2026-05-25 17:16:53] [INFO]   ITV.L        score= 57.8 RSI=51.0 P/E=13.6   news=50.0 ITV plc
+[2026-05-25 17:16:54] [INFO]   HTWS.L       score= 40.6 RSI=80.2 P/E=122.6  news=50.0 Helios Towers plc
+[2026-05-25 17:16:56] [INFO] ============================================================
+[2026-05-25 17:16:56] [INFO] Done | Total: £11,301.77 | Return: +13.02% | Trades: 0
+[2026-05-25 17:16:56] [INFO] Dashboard saved → dashboard.html
+[2026-05-25 17:16:56] [INFO] Complete.
