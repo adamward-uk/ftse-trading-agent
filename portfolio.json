@@ -1,5 +1,5 @@
 {
-  "cash": 2562.357999999998,
+  "cash": 2364.717999999998,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -14,13 +14,6 @@
       "first_bought": "2026-03-19",
       "score_at_buy": 66.0,
       "name": "Lancashire Holdings Limited"
-    },
-    "AUTO.L": {
-      "shares": 187,
-      "avg_cost": 4.806,
-      "first_bought": "2026-03-19",
-      "score_at_buy": 62.4,
-      "name": "Autotrader Group plc"
     },
     "INVP.L": {
       "shares": 159,
@@ -63,6 +56,13 @@
       "first_bought": "2026-05-22",
       "score_at_buy": 63.0,
       "name": "IP Group Plc"
+    },
+    "AUTO.L": {
+      "shares": 232,
+      "avg_cost": 4.392,
+      "first_bought": "2026-05-26",
+      "score_at_buy": 63.1,
+      "name": "Autotrader Group plc"
     }
   },
   "trades": [
@@ -310,6 +310,29 @@
       "total": 1016.57,
       "score": 63.0,
       "reason": "Score 63.0 | P/E 9.6",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "AUTO.L",
+      "name": "Autotrader Group plc",
+      "action": "SELL",
+      "shares": 187,
+      "price": 4.392,
+      "total": 821.3,
+      "pnl_pct": -8.61,
+      "reason": "Trailing cut -8.6% after 68d"
+    },
+    {
+      "date": "2026-05-26",
+      "ticker": "AUTO.L",
+      "name": "Autotrader Group plc",
+      "action": "BUY",
+      "shares": 232,
+      "price": 4.392,
+      "total": 1018.94,
+      "score": 63.1,
+      "reason": "Score 63.1 | P/E 12.9 | RSI 32 oversold",
       "news_headlines": []
     }
   ],
@@ -793,6 +816,16 @@
       "return_pct": 13.02,
       "positions": 9,
       "trades_today": 0
+    },
+    {
+      "date": "2026-05-26",
+      "timestamp": "2026-05-26 17:38",
+      "cash": 2364.72,
+      "equity_value": 8958.58,
+      "total_value": 11323.3,
+      "return_pct": 13.23,
+      "positions": 9,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
