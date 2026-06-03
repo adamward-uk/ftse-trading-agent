@@ -1,5 +1,5 @@
 {
-  "cash": 2364.717999999998,
+  "cash": 1344.3419999999978,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -63,6 +63,13 @@
       "first_bought": "2026-05-26",
       "score_at_buy": 63.1,
       "name": "Autotrader Group plc"
+    },
+    "NESF.L": {
+      "shares": 2192,
+      "avg_cost": 0.4655,
+      "first_bought": "2026-06-03",
+      "score_at_buy": 62.7,
+      "name": "NextEnergy Solar Ord"
     }
   },
   "trades": [
@@ -333,6 +340,18 @@
       "total": 1018.94,
       "score": 63.1,
       "reason": "Score 63.1 | P/E 12.9 | RSI 32 oversold",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-06-03",
+      "ticker": "NESF.L",
+      "name": "NextEnergy Solar Ord",
+      "action": "BUY",
+      "shares": 2192,
+      "price": 0.4655,
+      "total": 1020.38,
+      "score": 62.7,
+      "reason": "Score 62.7",
       "news_headlines": []
     }
   ],
@@ -876,6 +895,16 @@
       "return_pct": 14.65,
       "positions": 9,
       "trades_today": 0
+    },
+    {
+      "date": "2026-06-03",
+      "timestamp": "2026-06-03 18:06",
+      "cash": 1344.34,
+      "equity_value": 9996.24,
+      "total_value": 11340.59,
+      "return_pct": 13.41,
+      "positions": 10,
+      "trades_today": 1
     }
   ],
   "created": "2026-03-19",
