@@ -1,5 +1,5 @@
 {
-  "cash": 1344.3419999999978,
+  "cash": 1555.9019999999975,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -36,13 +36,6 @@
       "score_at_buy": 69.3,
       "name": "Persimmon Plc"
     },
-    "JET2.L": {
-      "shares": 86,
-      "avg_cost": 11.26,
-      "first_bought": "2026-05-12",
-      "score_at_buy": 63.2,
-      "name": "Jet2 plc"
-    },
     "UKW.L": {
       "shares": 999,
       "avg_cost": 0.998,
@@ -70,6 +63,13 @@
       "first_bought": "2026-06-03",
       "score_at_buy": 62.7,
       "name": "NextEnergy Solar Ord"
+    },
+    "TEP.L": {
+      "shares": 129,
+      "avg_cost": 8.14,
+      "first_bought": "2026-07-08",
+      "score_at_buy": 62.3,
+      "name": "Telecom Plus Plc"
     }
   },
   "trades": [
@@ -352,6 +352,29 @@
       "total": 1020.38,
       "score": 62.7,
       "reason": "Score 62.7",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-07-08",
+      "ticker": "JET2.L",
+      "name": "Jet2 plc",
+      "action": "SELL",
+      "shares": 86,
+      "price": 14.67,
+      "total": 1261.62,
+      "pnl_pct": 30.28,
+      "reason": "Take-profit +30.3%"
+    },
+    {
+      "date": "2026-07-08",
+      "ticker": "TEP.L",
+      "name": "Telecom Plus Plc",
+      "action": "BUY",
+      "shares": 129,
+      "price": 8.14,
+      "total": 1050.06,
+      "score": 62.3,
+      "reason": "Score 62.3 | P/E 8.1 | RSI 35 oversold",
       "news_headlines": []
     }
   ],
@@ -1145,6 +1168,16 @@
       "return_pct": 17.27,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-07-08",
+      "timestamp": "2026-07-08 18:02",
+      "cash": 1555.9,
+      "equity_value": 10125.0,
+      "total_value": 11680.91,
+      "return_pct": 16.81,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
