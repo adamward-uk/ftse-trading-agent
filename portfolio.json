@@ -1,5 +1,5 @@
 {
-  "cash": 1555.9019999999975,
+  "cash": 1539.7819999999974,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -21,13 +21,6 @@
       "first_bought": "2026-03-19",
       "score_at_buy": 62.3,
       "name": "Investec Group"
-    },
-    "NXT.L": {
-      "shares": 7,
-      "avg_cost": 122.05,
-      "first_bought": "2026-03-19",
-      "score_at_buy": 62.1,
-      "name": "NEXT plc"
     },
     "PSN.L": {
       "shares": 93,
@@ -70,6 +63,13 @@
       "first_bought": "2026-07-08",
       "score_at_buy": 62.3,
       "name": "Telecom Plus Plc"
+    },
+    "EMG.L": {
+      "shares": 352,
+      "avg_cost": 3.16,
+      "first_bought": "2026-08-05",
+      "score_at_buy": 68.4,
+      "name": "Man Group Plc"
     }
   },
   "trades": [
@@ -375,6 +375,29 @@
       "total": 1050.06,
       "score": 62.3,
       "reason": "Score 62.3 | P/E 8.1 | RSI 35 oversold",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-08-05",
+      "ticker": "NXT.L",
+      "name": "NEXT plc",
+      "action": "SELL",
+      "shares": 7,
+      "price": 156.6,
+      "total": 1096.2,
+      "pnl_pct": 28.31,
+      "reason": "Take-profit +28.3%"
+    },
+    {
+      "date": "2026-08-05",
+      "ticker": "EMG.L",
+      "name": "Man Group Plc",
+      "action": "BUY",
+      "shares": 352,
+      "price": 3.16,
+      "total": 1112.32,
+      "score": 68.4,
+      "reason": "Score 68.4 | P/E 15.0 | RevGrow +48%",
       "news_headlines": []
     }
   ],
@@ -1368,6 +1391,16 @@
       "return_pct": 23.59,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-08-05",
+      "timestamp": "2026-08-05 18:06",
+      "cash": 1539.78,
+      "equity_value": 10830.18,
+      "total_value": 12369.96,
+      "return_pct": 23.7,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
