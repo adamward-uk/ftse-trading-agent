@@ -3226,3 +3226,24 @@
 [2026-10-23 20:02:29] [INFO] Done | Total: £12,561.61 | Return: +25.62% | Trades: 0
 [2026-10-23 20:02:29] [INFO] Dashboard saved → dashboard.html
 [2026-10-23 20:02:29] [INFO] Complete.
+[2026-10-26 21:08:44] [INFO] Starting FTSE 250 Paper Trading Agent (Cloud)
+[2026-10-26 21:08:44] [INFO] ============================================================
+[2026-10-26 21:08:44] [INFO] FTSE Trading Agent — 2026-10-26 21:08
+[2026-10-26 21:08:44] [INFO] Cash: £1,539.78 | Positions: 10
+[2026-10-26 21:08:46] [INFO] Portfolio total: £12,707.17
+[2026-10-26 21:08:46] [INFO] --- Sell evaluation ---
+[2026-10-26 21:08:47] [INFO]   HOLD TBCG.L pnl=+18.3% score=70.8 221d
+[2026-10-26 21:08:47] [INFO]   HOLD LRE.L pnl=+18.2% score=58.9 221d
+[2026-10-26 21:08:48] [INFO]   HOLD INVP.L pnl=+7.8% score=69.1 221d
+[2026-10-26 21:08:48] [INFO]   HOLD PSN.L pnl=+26.8% score=58.3 180d
+[2026-10-26 21:08:48] [INFO]   HOLD UKW.L pnl=+17.8% score=57.6 165d
+[2026-10-26 21:08:49] [INFO]   HOLD IPO.L pnl=+6.0% score=67.4 157d
+[2026-10-26 21:08:50] [INFO]   HOLD AUTO.L pnl=+20.2% score=56.3 153d
+[2026-10-26 21:08:50] [INFO]   HOLD NESF.L pnl=+2.9% score=36.8 145d
+[2026-10-26 21:08:51] [INFO]   HOLD TEP.L pnl=+10.6% score=60.7 110d
+[2026-10-26 21:08:51] [INFO]   HOLD EMG.L pnl=+5.8% score=69.3 82d
+[2026-10-26 21:08:51] [INFO] No buy slots or insufficient cash.
+[2026-10-26 21:08:52] [INFO] ============================================================
+[2026-10-26 21:08:52] [INFO] Done | Total: £12,707.17 | Return: +27.07% | Trades: 0
+[2026-10-26 21:08:52] [INFO] Dashboard saved → dashboard.html
+[2026-10-26 21:08:52] [INFO] Complete.
