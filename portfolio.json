@@ -1,5 +1,5 @@
 {
-  "cash": 1539.7819999999974,
+  "cash": 1636.8769999999975,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -21,13 +21,6 @@
       "first_bought": "2026-03-19",
       "score_at_buy": 62.3,
       "name": "Investec Group"
-    },
-    "PSN.L": {
-      "shares": 93,
-      "avg_cost": 10.27,
-      "first_bought": "2026-04-29",
-      "score_at_buy": 69.3,
-      "name": "Persimmon Plc"
     },
     "UKW.L": {
       "shares": 999,
@@ -70,6 +63,13 @@
       "first_bought": "2026-08-05",
       "score_at_buy": 68.4,
       "name": "Man Group Plc"
+    },
+    "RHIM.L": {
+      "shares": 42,
+      "avg_cost": 26.95,
+      "first_bought": "2026-10-27",
+      "score_at_buy": 62.1,
+      "name": "RHI Magnesita N.V."
     }
   },
   "trades": [
@@ -398,6 +398,29 @@
       "total": 1112.32,
       "score": 68.4,
       "reason": "Score 68.4 | P/E 15.0 | RevGrow +48%",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "PSN.L",
+      "name": "Persimmon Plc",
+      "action": "SELL",
+      "shares": 93,
+      "price": 13.215,
+      "total": 1228.99,
+      "pnl_pct": 28.68,
+      "reason": "Take-profit +28.7%"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "RHIM.L",
+      "name": "RHI Magnesita N.V.",
+      "action": "BUY",
+      "shares": 42,
+      "price": 26.95,
+      "total": 1131.9,
+      "score": 62.1,
+      "reason": "Score 62.1 | P/E 13.6",
       "news_headlines": []
     }
   ],
@@ -1551,6 +1574,16 @@
       "return_pct": 27.07,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-10-27",
+      "timestamp": "2026-10-27 20:53",
+      "cash": 1636.88,
+      "equity_value": 11146.0,
+      "total_value": 12782.88,
+      "return_pct": 27.83,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
