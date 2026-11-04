@@ -1,5 +1,5 @@
 {
-  "cash": 1636.8769999999975,
+  "cash": 1781.2509999999975,
   "holdings": {
     "TBCG.L": {
       "shares": 22,
@@ -36,13 +36,6 @@
       "score_at_buy": 63.0,
       "name": "IP Group Plc"
     },
-    "AUTO.L": {
-      "shares": 232,
-      "avg_cost": 4.392,
-      "first_bought": "2026-05-26",
-      "score_at_buy": 63.1,
-      "name": "Autotrader Group plc"
-    },
     "NESF.L": {
       "shares": 2192,
       "avg_cost": 0.4655,
@@ -70,6 +63,13 @@
       "first_bought": "2026-10-27",
       "score_at_buy": 62.1,
       "name": "RHI Magnesita N.V."
+    },
+    "CARD.L": {
+      "shares": 1298,
+      "avg_cost": 0.909,
+      "first_bought": "2026-11-04",
+      "score_at_buy": 62.1,
+      "name": "Card Factory plc"
     }
   },
   "trades": [
@@ -421,6 +421,29 @@
       "total": 1131.9,
       "score": 62.1,
       "reason": "Score 62.1 | P/E 13.6",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-11-04",
+      "ticker": "AUTO.L",
+      "name": "Autotrader Group plc",
+      "action": "SELL",
+      "shares": 232,
+      "price": 5.708,
+      "total": 1324.26,
+      "pnl_pct": 29.96,
+      "reason": "Take-profit +30.0%"
+    },
+    {
+      "date": "2026-11-04",
+      "ticker": "CARD.L",
+      "name": "Card Factory plc",
+      "action": "BUY",
+      "shares": 1298,
+      "price": 0.909,
+      "total": 1179.88,
+      "score": 62.1,
+      "reason": "Score 62.1 | P/E 9.1 | RevGrow +5%",
       "news_headlines": []
     }
   ],
@@ -1634,6 +1657,16 @@
       "return_pct": 29.04,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-11-04",
+      "timestamp": "2026-11-04 22:05",
+      "cash": 1781.25,
+      "equity_value": 11330.42,
+      "total_value": 13111.67,
+      "return_pct": 31.12,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
