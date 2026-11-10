@@ -1,13 +1,6 @@
 {
-  "cash": 1781.2509999999975,
+  "cash": 1836.3009999999974,
   "holdings": {
-    "TBCG.L": {
-      "shares": 22,
-      "avg_cost": 40.85,
-      "first_bought": "2026-03-19",
-      "score_at_buy": 74.9,
-      "name": "TBC Bank Group PLC"
-    },
     "LRE.L": {
       "shares": 157,
       "avg_cost": 5.73,
@@ -70,6 +63,13 @@
       "first_bought": "2026-11-04",
       "score_at_buy": 62.1,
       "name": "Card Factory plc"
+    },
+    "TBCG.L": {
+      "shares": 21,
+      "avg_cost": 55.05,
+      "first_bought": "2026-11-10",
+      "score_at_buy": 68.0,
+      "name": "TBC Bank Group PLC"
     }
   },
   "trades": [
@@ -444,6 +444,29 @@
       "total": 1179.88,
       "score": 62.1,
       "reason": "Score 62.1 | P/E 9.1 | RevGrow +5%",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "TBCG.L",
+      "name": "TBC Bank Group PLC",
+      "action": "SELL",
+      "shares": 22,
+      "price": 55.05,
+      "total": 1211.1,
+      "pnl_pct": 34.76,
+      "reason": "Take-profit +34.8%"
+    },
+    {
+      "date": "2026-11-10",
+      "ticker": "TBCG.L",
+      "name": "TBC Bank Group PLC",
+      "action": "BUY",
+      "shares": 21,
+      "price": 55.05,
+      "total": 1156.05,
+      "score": 68.0,
+      "reason": "Score 68.0 | P/E 7.3 | RevGrow +12%",
       "news_headlines": []
     }
   ],
@@ -1697,6 +1720,16 @@
       "return_pct": NaN,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-11-10",
+      "timestamp": "2026-11-10 21:54",
+      "cash": 1836.3,
+      "equity_value": 11269.06,
+      "total_value": 13105.36,
+      "return_pct": 31.05,
+      "positions": 10,
+      "trades_today": 2
     }
   ],
   "created": "2026-03-19",
