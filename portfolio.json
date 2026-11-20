@@ -1,5 +1,5 @@
 {
-  "cash": 1836.3009999999974,
+  "cash": 1685.9579999999976,
   "holdings": {
     "LRE.L": {
       "shares": 157,
@@ -50,26 +50,26 @@
       "score_at_buy": 68.4,
       "name": "Man Group Plc"
     },
-    "RHIM.L": {
-      "shares": 42,
-      "avg_cost": 26.95,
-      "first_bought": "2026-10-27",
-      "score_at_buy": 62.1,
-      "name": "RHI Magnesita N.V."
-    },
-    "CARD.L": {
-      "shares": 1298,
-      "avg_cost": 0.909,
-      "first_bought": "2026-11-04",
-      "score_at_buy": 62.1,
-      "name": "Card Factory plc"
-    },
     "TBCG.L": {
       "shares": 21,
       "avg_cost": 55.05,
       "first_bought": "2026-11-10",
       "score_at_buy": 68.0,
       "name": "TBC Bank Group PLC"
+    },
+    "MKS.L": {
+      "shares": 246,
+      "avg_cost": 4.543,
+      "first_bought": "2026-11-20",
+      "score_at_buy": 65.1,
+      "name": "Marks and Spencer Group plc"
+    },
+    "CARD.L": {
+      "shares": 1363,
+      "avg_cost": 0.821,
+      "first_bought": "2026-11-20",
+      "score_at_buy": 63.8,
+      "name": "Card Factory plc"
     }
   },
   "trades": [
@@ -467,6 +467,52 @@
       "total": 1156.05,
       "score": 68.0,
       "reason": "Score 68.0 | P/E 7.3 | RevGrow +12%",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-11-20",
+      "ticker": "RHIM.L",
+      "name": "RHI Magnesita N.V.",
+      "action": "SELL",
+      "shares": 42,
+      "price": 24.3,
+      "total": 1020.6,
+      "pnl_pct": -9.83,
+      "reason": "Trailing cut -9.8% after 24d"
+    },
+    {
+      "date": "2026-11-20",
+      "ticker": "CARD.L",
+      "name": "Card Factory plc",
+      "action": "SELL",
+      "shares": 1298,
+      "price": 0.821,
+      "total": 1065.66,
+      "pnl_pct": -9.68,
+      "reason": "Trailing cut -9.7% after 16d"
+    },
+    {
+      "date": "2026-11-20",
+      "ticker": "MKS.L",
+      "name": "Marks and Spencer Group plc",
+      "action": "BUY",
+      "shares": 246,
+      "price": 4.543,
+      "total": 1117.58,
+      "score": 65.1,
+      "reason": "Score 65.1 | P/E 0.4 | RevGrow +15%",
+      "news_headlines": []
+    },
+    {
+      "date": "2026-11-20",
+      "ticker": "CARD.L",
+      "name": "Card Factory plc",
+      "action": "BUY",
+      "shares": 1363,
+      "price": 0.821,
+      "total": 1119.02,
+      "score": 63.8,
+      "reason": "Score 63.8 | P/E 8.2 | RevGrow +5% | RSI 27 oversold",
       "news_headlines": []
     }
   ],
@@ -1800,6 +1846,16 @@
       "return_pct": 26.76,
       "positions": 10,
       "trades_today": 0
+    },
+    {
+      "date": "2026-11-20",
+      "timestamp": "2026-11-20 22:46",
+      "cash": 1685.96,
+      "equity_value": 10752.81,
+      "total_value": 12438.77,
+      "return_pct": 24.39,
+      "positions": 10,
+      "trades_today": 4
     }
   ],
   "created": "2026-03-19",
