@@ -1856,6 +1856,16 @@
       "return_pct": 24.39,
       "positions": 10,
       "trades_today": 4
+    },
+    {
+      "date": "2026-11-24",
+      "timestamp": "2026-11-24 02:59",
+      "cash": 1685.96,
+      "equity_value": NaN,
+      "total_value": NaN,
+      "return_pct": NaN,
+      "positions": 10,
+      "trades_today": 0
     }
   ],
   "created": "2026-03-19",
